@@ -34,7 +34,7 @@ A file can also contain lines incompatible with the file type specified in the o
 
 The process of files merger is broken into subtasks, which merge two different files into one.
 Such subtasks are passed to a thread pool, where they are executed independently.
-When the required number of mergers has occurred (which is **(N - 1)**, where **N** is the initial number of input files),
+When the required number of mergers has occurred (which is **N - 1**, where **N** is the initial number of input files),
 the program finishes.
 
 All the files pending merger, including the temporary ones 
