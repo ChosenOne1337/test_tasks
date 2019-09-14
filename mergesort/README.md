@@ -11,7 +11,7 @@
 * Or build your own from the sources with ***gradle*** (dependencies are specified in the "*build.gradle*" file)
 
 ## Usage
-  Run the jar file with ***java***:
+  Run the jar file with ***java*** (Java 11 or newer is required):
   
   ```
   java -jar <jarfile>.jar [options] <output_file> [<input_file_1>, ...]
